@@ -1,0 +1,60 @@
+body {
+    padding-top:50px
+}
+.breadcrumb{
+    background-color: #fff;
+    font-size: smaller;
+    margin-bottom: 0px;
+}
+.breadcrumb-item.active{
+    /*color: lightgrey*/
+}
+.bg-light {
+    background-color: #fff !important;
+}
+.border-bottom{
+    border-bottom: 1px solid lightgray
+}
+.row{
+    margin: 10px 10px;
+    /*    border:1px solid black;
+        min-height: 100px;*/
+}
+.box-shadow{
+    box-shadow: 1px 1px 4px 1px lightgrey;
+}
+
+/*-----------------------------*/
+.input-error-msg{
+    padding: 0 5px;
+    font-size: small;
+    color: darkred
+}
+
+.generic-msg{
+    font-size: small;
+}
+
+.alert-danger{
+    font-color:darkred;
+}
+
+.sidebar-menu .btn{
+    font-weight: normal;
+}
+.sidebar-menu .btn:hover{
+    border:1px solid #007bff;
+}
+.sidebar-menu .btn.active{
+    box-shadow: 1px 1px 4px 1px lightgrey;
+}
+
+.form-check-input{
+    width: 1.25rem;
+    height: 1.25rem; 
+}
+
+input.disabled[type="checkbox"]{
+    pointer-events: none;
+    opacity: .5
+}
